@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-plugin-sso-smartid",
+	"name": "NodeBB SmartID SSO",
+	"description": "NodeBB Plugin that allows users to login/register via SmartID.",
+	"url": "https://github.com/andres-liiver/nodebb-plugin-sso-smartid",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:auth.init", "method": "getStrategy" },
+		{ "hook": "static:user.delete", "method": "deleteUserData" }
+	]
+}
