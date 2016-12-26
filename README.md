@@ -2,6 +2,8 @@
 
 NodeBB Plugin that allows users to login/register via SmartID (https://smartid.ee)
 
+Example of use https://community.eresnetwork.eu/
+
 ## Installation
 
 Install plugin and its dependencies with NPM:
